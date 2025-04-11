@@ -147,7 +147,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    min-width: 50%;
+    min-width: 60%;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -155,10 +155,20 @@ body {
 .fun-fact-articles {
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 55%;
     min-width: 30%;
 }
 
 .fun-fact-text {
     color: rgb(119, 119, 119);
+}
+
+.fun-fact-split {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fun-fact-images {
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
