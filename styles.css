@@ -22,7 +22,7 @@ body {
 }
 
 .sections > section {       /* for testing */
-    border: 2px;
+    border: 0px;
     border-color: black;
     border-style: dashed;
 }
@@ -93,4 +93,24 @@ body {
 .intro-buttons-already {
     background-color: white;
     color: rgb(28, 176, 246)
+}
+
+.aside-languages {
+    max-width: 100%;
+    min-width: 40%;
+    height: 85px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+}
+
+.overflow {
+    overflow-x: scroll;
+  }
+  
+.overflow::-webkit-scrollbar {
+    display: none;
 }
