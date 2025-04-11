@@ -110,6 +110,7 @@ body {
 .languages {
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .language-buttons {
@@ -118,6 +119,7 @@ body {
     align-items: center;
     border: 0px;
     color: rgb(119, 119, 119);
+    margin: 5px;
 }
 
 .overflow {
