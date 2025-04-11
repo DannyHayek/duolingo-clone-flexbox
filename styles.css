@@ -98,13 +98,26 @@ body {
 .aside-languages {
     max-width: 100%;
     min-width: 40%;
-    height: 85px;
+    height: 75px;
     border-top: 1px;
     border-bottom: 1px;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
     border-color: rgb(187, 187, 187);
+}
+
+.languages {
+    justify-content: center;
+    align-items: center;
+}
+
+.language-buttons {
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px;
+    color: rgb(119, 119, 119);
 }
 
 .overflow {
