@@ -216,3 +216,39 @@ body {
     border-radius: 10px;
     color: rgb(19,16,54);
 }
+
+.footer {
+    background-color: rgb(88, 204, 2);
+    max-width: 100%;
+    min-width: 40%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-extras {
+    max-width: 70%;
+    min-width: 40%;
+    justify-content: center;
+    align-items: wrap;
+}
+
+.footer-article {
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.footer-article-titles {
+    color: rgb(215, 255, 184);
+    margin-bottom: 9px;
+}
+
+.footer-links {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: rgb(165, 237, 110);
+}
+
+a {
+    text-decoration: none;
+}
