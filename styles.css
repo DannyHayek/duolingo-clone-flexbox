@@ -62,11 +62,35 @@ body {
     align-items: center;
 }
 
+.intro-text-buttons {
+    justify-content: center;
+    align-items: center;
+}
+
 .intro-text {
     text-align: center;
 }
 
-.intro-text-buttons {
-    justify-content: center;
+.intro-buttons-div {
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.intro-buttons {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.intro-buttons-started {
+    background-color: rgb(88, 204, 2);
+    color:white;
+}
+
+.intro-buttons-already {
+    background-color: white;
+    color: rgb(28, 176, 246)
 }
