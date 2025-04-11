@@ -19,13 +19,24 @@ body {
     justify-content: space-evenly;
     padding-top: 15px;
     padding-bottom: 15px;
-    /* border: 2px;
+}
+
+.sections > section {       /* for testing */
+    border: 2px;
     border-color: black;
-    border-style: dashed; */
+    border-style: dashed;
 }
 
 .flex {
     display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .duo-logo-button {
@@ -40,4 +51,22 @@ body {
 .language-button-text {
     font-size: small;
     color: gray;
+}
+
+.intro-section {
+    max-width: 100%;
+    min-width: 50%;
+    max-height: 80vw;
+    min-height: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-text-buttons {
+    justify-content: center;
+    align-items: center;
 }
