@@ -99,8 +99,18 @@ body {
     color:white;
 }
 
+.intro-buttons-started:hover {
+    background-color: rgb(96, 216, 4);
+    color:white;
+}
+
 .intro-buttons-already {
     background-color: white;
+    color: rgb(28, 176, 246)
+}
+
+.intro-buttons-already:hover {
+    background-color: rgb(224, 228, 230);
     color: rgb(28, 176, 246)
 }
 
