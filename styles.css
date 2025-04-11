@@ -132,3 +132,12 @@ body {
 .overflow::-webkit-scrollbar {
     display: none;
 }
+
+.inline-links {
+    color: rgb(28, 176, 246);
+    text-decoration: none;
+}
+
+.fun-fact-titles {
+    color: rgb(88, 204, 2);
+}
